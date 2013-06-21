@@ -42,7 +42,7 @@ class Instagram{
 	public function getRecentTag($base_tag=''){
 		$arrayout = array();
 		//Tag default para busca
-	    $tag = ($base_tag=='' ? "helloworld" : $base_tag);
+	    $tag = ($base_tag=='' ? "coding" : $base_tag);
 	    //set the url to use
 	    $url = 'https://api.instagram.com/v1/tags/'.$tag.'/media/recent?client_id='.$this->key;
 		//curls
